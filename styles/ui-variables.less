@@ -13,6 +13,7 @@
 
 // Cribbed from gruvbox theme
 @syntax-red: #fb4934;
+@syntax-orange: #fe8019;
 @syntax-black: #282828;
 @syntax-white: #d5c4a1;
 @syntax-green: #b8bb26;
@@ -24,6 +25,8 @@
 @text-color-subtle:    hsl(0,0%,50%);
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
+
+@base-ui-text-highlight: @syntax-orange;
 
 @text-status-modified: @syntax-green;
 
@@ -101,11 +104,15 @@
 // Tabs
 @tab-height: 25px;
 @tab-close-icon-modified: @syntax-cyan;
-@tab-close-icon-modified-hover: @syntax-red;
+@tab-close-icon-modified-hover: @base-ui-text-highlight;
 
 // Tool-tips
 @tip-background-color: @syntax-green;
 @tip-text-color: @syntax-black;
+
+// Status bar
+@status-bar-git-branch-color: @base-ui-text-highlight;
+@status-bar-grammar-picker-color: @syntax-cyan;
 
 // Misc
 @component-border-radius: 2px;
