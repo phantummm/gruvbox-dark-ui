@@ -5,7 +5,8 @@
   "description": "Atom UI theme to go with gruvbox syntax theme",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "gruvbox"
   ],
   "repository": "https://github.com/phantummm/gruvbox-dark-ui",
   "license": "MIT",
