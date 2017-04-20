@@ -10,14 +10,41 @@
 // Try to edit some of the values below to see your theme change.
 // A good start is to change the color of the `@base-background-color` variable.
 
+// gruvbox palette, from vim theme by Pavel Pertsev:
+// https://github.com/morhetz/gruvbox
 
-// Cribbed from gruvbox theme
-@syntax-red: #fb4934;
-@syntax-orange: #fe8019;
-@syntax-black: #282828;
-@syntax-white: #d5c4a1;
-@syntax-green: #b8bb26;
-@syntax-cyan: #83a598;
+@ui-bg: @ui-bg0;
+@ui-bg0: #282828;
+@ui-bg0_h: #1d2021;
+@ui-bg0_s: #32302f;
+@ui-bg1: #3c3836;
+@ui-bg2: #504945;
+@ui-bg3: #665c54;
+@ui-bg4: #7c6f64;
+
+@ui-fg: @ui-fg1;
+@ui-fg0: #fbf1c7;
+@ui-fg1: #ebdbb2;
+@ui-fg2: #d5c4a1;
+@ui-fg3: #bdae93;
+@ui-fg4: #a89984;
+
+@ui-gray: #928374;
+@ui-gray-bright: #a89984;
+@ui-red: #cc241d;
+@ui-red-bright: #fb4934;
+@ui-green: #98971a;
+@ui-green-bright: #b8bb26;
+@ui-yellow: #d79921;
+@ui-yellow-bright: #fabd2f;
+@ui-blue: #458588;
+@ui-blue-bright: #83a598;
+@ui-purple: #b16286;
+@ui-purple-bright: #d3869b;
+@ui-aqua: #689d6a;
+@ui-aqua-bright: #8ec07c;
+@ui-orange: #d65d0e;
+@ui-orange-bright: #fe8019;
 
 
 // Text Colors
@@ -26,9 +53,9 @@
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
 
-@base-ui-text-highlight: @syntax-orange;
+@base-ui-text-highlight: @ui-orange;
 
-@text-status-modified: @syntax-green;
+@text-status-modified: @ui-green;
 
 @text-color-info:    hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  44%, 62%);
@@ -47,7 +74,7 @@
 
 // Base colors
 // @base-background-color: hsl(222,6%,22%);
-@base-background-color: @syntax-black;
+@base-background-color: @ui-bg;
 @base-border-color:     darken(@base-background-color, 8%);
 
 // Component colors
@@ -103,16 +130,16 @@
 
 // Tabs
 @tab-height: 25px;
-@tab-close-icon-modified: @syntax-cyan;
+@tab-close-icon-modified: @ui-aqua;
 @tab-close-icon-modified-hover: @base-ui-text-highlight;
 
 // Tool-tips
-@tip-background-color: @syntax-green;
-@tip-text-color: @syntax-black;
+@tip-background-color: @ui-green;
+@tip-text-color: @ui-bg;
 
 // Status bar
 @status-bar-git-branch-color: @base-ui-text-highlight;
-@status-bar-grammar-picker-color: @syntax-cyan;
+@status-bar-grammar-picker-color: @ui-aqua;
 
 // Misc
 @component-border-radius: 2px;
