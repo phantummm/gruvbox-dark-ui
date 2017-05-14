@@ -1,2 +1,2 @@
-## 0.1.0 - First Release
-* basics
+## 1.0.0 - good to go
+* looks pretty alright

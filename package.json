@@ -1,12 +1,13 @@
 {
   "name": "gruvbox-dark-ui",
   "theme": "ui",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "description": "Atom UI theme to go with gruvbox syntax theme",
   "keywords": [
     "ui",
     "theme",
-    "gruvbox"
+    "gruvbox",
+    "dark"
   ],
   "repository": "https://github.com/phantummm/gruvbox-dark-ui",
   "license": "MIT",
