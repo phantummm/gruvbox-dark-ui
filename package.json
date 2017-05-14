@@ -1,7 +1,7 @@
 {
   "name": "gruvbox-dark-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Atom UI theme to go with gruvbox syntax theme",
   "keywords": [
     "ui",
