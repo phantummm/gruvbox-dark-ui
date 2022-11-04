@@ -1,4 +1,4 @@
-# gruvbox-dark-ui
+# gruvbox-dark-ui (deprecated)
 A UI theme to complement the [gruvbox](https://atom.io/themes/gruvbox) syntax theme for Atom, by Caleb Land, which is in turn based on the original [vim theme](https://github.com/morhetz/gruvbox) by Pavel Pertsev.
 
 ## Recommendations
